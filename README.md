@@ -27,6 +27,7 @@ Verify installation:
 py --list
 ```
 
+<<<<<<< HEAD
 ### Step 2: Clone the Repository
 
 ```bash
@@ -35,6 +36,12 @@ git clone https://github.com/HwanNorm/face-recognition-system.git
 
 # Navigate to the project directory
 cd face-recognition-system
+=======
+### Step 2: Clone/Download the Project
+
+```bash
+cd "D:\Ho Anh project\face_recognition_project"
+>>>>>>> 3acb95ec0670c035149d067a060566117250d813
 ```
 
 ### Step 3: Create Virtual Environment
