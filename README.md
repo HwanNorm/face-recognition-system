@@ -203,4 +203,3 @@ Ho Anh - Face Recognition Project
 ## Version
 
 v1.0 - December 2024
-```
