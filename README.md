@@ -198,7 +198,7 @@ This project is for educational purposes.
 
 ## Author
 
-Ho Anh - Face Recognition Project
+Hoang Nam - Face Recognition Project
 
 ## Version
 
