@@ -1,4 +1,4 @@
-```
+
 # Face Recognition System
 
 A real-time face recognition system built with DeepFace and OpenCV, using state-of-the-art deep learning models for accurate facial identification.
