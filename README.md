@@ -1,3 +1,4 @@
+```
 # Face Recognition System
 
 A real-time face recognition system built with DeepFace and OpenCV, using state-of-the-art deep learning models for accurate facial identification.
@@ -27,7 +28,6 @@ Verify installation:
 py --list
 ```
 
-<<<<<<< HEAD
 ### Step 2: Clone the Repository
 
 ```bash
@@ -36,12 +36,6 @@ git clone https://github.com/HwanNorm/face-recognition-system.git
 
 # Navigate to the project directory
 cd face-recognition-system
-=======
-### Step 2: Clone/Download the Project
-
-```bash
-cd "D:\Ho Anh project\face_recognition_project"
->>>>>>> 3acb95ec0670c035149d067a060566117250d813
 ```
 
 ### Step 3: Create Virtual Environment
@@ -81,8 +75,8 @@ python main.py
 1. **Capture images for new person**
    - Register a new person in the system
    - Enter the person's name
-   - Press `SPACE` to capture photos (recommended: 10+ images)
-   - Press `Q` to quit early
+   - Press SPACE to capture photos (recommended: 10+ images)
+   - Press Q to quit early
    - Capture from different angles for better accuracy
 
 2. **Verify dataset**
@@ -91,7 +85,7 @@ python main.py
 
 3. **Start real-time recognition**
    - Launch webcam-based face recognition
-   - Press `Q` to quit
+   - Press Q to quit
    - Recognized faces show with green labels
    - Unknown faces show with red labels
 
@@ -114,33 +108,35 @@ python main.py
 ## Quick Start Guide
 
 1. Run the application: `python main.py`
-2. Choose option `1` to register yourself
+2. Choose option 1 to register yourself
 3. Enter your name and capture 10 photos
-4. Choose option `3` to start real-time recognition
+4. Choose option 3 to start real-time recognition
 5. Your face will be recognized with confidence percentage
 
 ## Project Structure
 
 ```
-face_recognition_project/
+face-recognition-system/
 │
 ├── main.py                 # Main application file
 ├── README.md              # This file
-├── dataset/               # Face database (created automatically)
-│   ├── person1/          # Images for person 1
-│   ├── person2/          # Images for person 2
+├── requirements.txt       # Python dependencies
+├── .gitignore            # Git ignore rules
+├── dataset/              # Face database (created automatically)
+│   ├── person1/         # Images for person 1
+│   ├── person2/         # Images for person 2
 │   └── ...
-├── models/                # Model cache (created automatically)
-└── venv/                  # Virtual environment
+├── models/               # Model cache (created automatically)
+└── venv/                 # Virtual environment
 ```
 
 ## Technical Details
 
 ### Models Used
 
-- **Default Model**: Facenet512 (128-dimensional embeddings)
-- **Detector**: OpenCV Haar Cascades
-- **Framework**: DeepFace + TensorFlow/Keras
+- Default Model: Facenet512 (128-dimensional embeddings)
+- Detector: OpenCV Haar Cascades
+- Framework: DeepFace + TensorFlow/Keras
 
 ### How It Works
 
@@ -159,7 +155,8 @@ face_recognition_project/
 
 ### "ModuleNotFoundError: No module named 'cv2'"
 
-Make sure you installed `opencv-python` (not `cv2`):
+Make sure you installed opencv-python (not cv2):
+
 ```bash
 python -m pip install opencv-python
 ```
@@ -172,7 +169,7 @@ Install Python 3.12 or 3.11. Python 3.14 is not supported by TensorFlow yet.
 
 - Ensure webcam is connected and not used by another application
 - Check camera permissions in system settings
-- Try changing camera index in code (line 35, 154): `cv2.VideoCapture(1)` instead of `0`
+- Try changing camera index in code (line 35, 154): `cv2.VideoCapture(1)` instead of 0
 
 ### Low Recognition Accuracy
 
@@ -183,11 +180,11 @@ Install Python 3.12 or 3.11. Python 3.14 is not supported by TensorFlow yet.
 
 ## Dependencies
 
-- **opencv-python**: Computer vision and camera handling
-- **pandas**: Data manipulation
-- **deepface**: Face recognition framework
-- **tf-keras**: Deep learning backend
-- **numpy**: Numerical computations (installed with above packages)
+- opencv-python: Computer vision and camera handling
+- pandas: Data manipulation
+- deepface: Face recognition framework
+- tf-keras: Deep learning backend
+- numpy: Numerical computations (installed with above packages)
 
 ## License
 
@@ -195,9 +192,9 @@ This project is for educational purposes.
 
 ## Acknowledgments
 
-- [DeepFace](https://github.com/serengil/deepface) - Face recognition framework
-- [OpenCV](https://opencv.org/) - Computer vision library
-- [Facenet](https://arxiv.org/abs/1503.03832) - Face recognition model
+- DeepFace - Face recognition framework
+- OpenCV - Computer vision library
+- Facenet - Face recognition model
 
 ## Author
 
@@ -206,3 +203,4 @@ Ho Anh - Face Recognition Project
 ## Version
 
 v1.0 - December 2024
+```
