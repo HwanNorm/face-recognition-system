@@ -1,0 +1,8 @@
+# Face Recognition System Requirements
+# Python 3.11 or 3.12 required (not 3.14)
+
+opencv-python>=4.8.0
+pandas>=2.0.0
+deepface>=0.0.90
+tf-keras>=2.15.0
+numpy>=1.24.0
